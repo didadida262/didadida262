@@ -1,16 +1,22 @@
 ## Hi there 👋
 
-<!--
-**didadida262/didadida262** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m Miles, an experienced senior engineer specializing in frontend and full-stack product development. I thrive on delivering complex features, mentoring teams, and maintaining curiosity alongside a steady output tempo. This repository mirrors my GitHub profile, so everything shown here also appears on [https://github.com/didadida262](https://github.com/didadida262/).
 
-Here are some ideas to get you started:
+## ✨ Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Frontend**: Vue 3, React, TypeScript, Vite, ESModule ecosystems, and precise component state management.
+- **Backend & Services**: Node.js/Express and lightweight cloud functions; familiar with REST and WebSocket communication patterns.
+- **Engineering & Deployment**: CI/CD, automated testing, Dockerization, and GitHub Actions workflows.
+- **Visualization & Mapping**: Cesium, ECharts, and Canvas for immersive geographic and data visualization experiences.
+
+## 🚀 Projects
+
+* **Individual Blog (hhvcg_Blog_v2)**: 🌐 https://hhvcg-blog-v2.vercel.app
+* **Annotation Platform (project_labelV2)**: 🎯 https://project-label-v2.vercel.app
+* **3D Situation Simulation (project_cesium)**: 🛰️ https://project-cesium.vercel.app
+* **Local Large Model Knowledge Base (project_Local_Knowledge_Base)**: 📚 https://github.com/didadida262/project_Local_Knowledge_Base
+
+* **Command Line Scaffolding Toolkit (project_create_myApp_cli)**: ⚙️ https://www.npmjs.com/package/@miles_wang/create-myapp-cli
+
+
+Feel free to connect on GitHub or explore any project from my profile for more details.
