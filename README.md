@@ -14,6 +14,7 @@ I’m Miles, an experienced senior engineer specializing in frontend and full-st
 * **Individual Blog (hhvcg_Blog_v2)**: 🌐 https://hhvcg-blog-v2.vercel.app
 * **Annotation Platform (project_labelV2)**: 🎯 https://project-label-v2.vercel.app
 * **3D Situation Simulation (project_cesium)**: 🛰️ [https://project-cesium-react.vercel.app](https://project-cesium-react.vercel.app/)
+* **Point Cloud Simulation Platform (project_pointcloud)**: 🎨 https://project-pointcloud.vercel.app
 * **Local Large Model Knowledge Base (project_Local_Knowledge_Base)**: 📚 https://github.com/didadida262/project_Local_Knowledge_Base
 
 * **Command Line Scaffolding Toolkit (project_create_myApp_cli)**: ⚙️ https://www.npmjs.com/package/@miles_wang/create-myapp-cli
