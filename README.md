@@ -11,7 +11,7 @@ I’m Miles, an experienced senior engineer specializing in frontend and full-st
 
 ## 🚀 Projects
 
-* **Individual Blog (hhvcg_Blog_v2)**: 🌐https://mileswang262.com
+* **Individual Blog (hhvcg_Blog_v2)**: 🌐 https://isshin-kai.com
 * **Annotation Platform (project_labelV2)**: 🎯 https://project-label-v2.vercel.app
 * **3D Situation Simulation (project_cesium)**: 🛰️ [https://project-cesium-react.vercel.app](https://project-cesium-react.vercel.app/)
 * **Point Cloud Simulation Platform (project_pointcloud)**: 🎨 https://project-pointcloud.vercel.app
