@@ -19,7 +19,6 @@ I’m Miles, an experienced senior engineer specializing in frontend and full-st
 
 * **Command Line Scaffolding Toolkit (project_create_myApp_cli)**: ⚙️ https://www.npmjs.com/package/@miles_wang/create-myapp-cli
 
-* **More projects coming soon...**
 
 
 
