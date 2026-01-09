@@ -1,5 +1,5 @@
-<!-- GitHub Metrics - 3D Contribution Graph -->
-<img src="https://github.com/didadida262/didadida262/blob/main/github-metrics.svg" alt="3D Contribution Graph" width="100%">
+<!-- GitHub 3D Contribution Graph -->
+<img src="https://raw.githubusercontent.com/didadida262/didadida262/main/profile-3d-contrib/profile-3d-contrib.svg" alt="3D Contribution Graph" width="100%">
 
 ## Hi there 👋
 

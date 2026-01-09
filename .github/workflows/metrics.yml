@@ -1,4 +1,4 @@
-name: Metrics
+name: Generate 3D Contribution Graph
 
 on:
   # 每天 UTC 时间 00:00 自动运行（北京时间 08:00）
@@ -16,47 +16,30 @@ on:
       - '.github/workflows/metrics.yml'
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    name: Generate GitHub Profile 3D Contribution Graph
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
-        with:
-          # GitHub token (自动提供，无需配置)
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # 用户配置
-          user: didadida262
-          
-          # 禁用所有基础模块
-          base.header: "0"
-          base.activity: "0"
-          base.community: "0"
-          base.repositories: "0"
-          base.metadata: "0"
-          
-          # 只生成 3D 贡献图
-          plugin_3d: "yes"
-          
-          # 输出文件
-          filename: metrics.svg
-          output_action: write
-          output_branch: main
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: didadida262
 
       - name: Commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add metrics.svg
+          git add profile-3d-contrib/profile-3d-contrib.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m '📊 Update metrics'
+            git commit -m '📊 Update 3D contribution graph'
             git push
           fi
 
