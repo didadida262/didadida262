@@ -1,5 +1,5 @@
-<!-- GitHub Metrics - 自动生成并每天更新 -->
-<img src="https://raw.githubusercontent.com/didadida262/didadida262/main/metrics.svg" alt="Metrics" width="100%">
+<!-- GitHub Metrics - 3D Contribution Graph -->
+<img src="https://raw.githubusercontent.com/didadida262/didadida262/main/metrics.svg" alt="3D Contribution Graph" width="100%">
 
 ## Hi there 👋
 
