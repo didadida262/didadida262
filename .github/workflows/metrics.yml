@@ -1,0 +1,66 @@
+name: Metrics
+
+on:
+  # 每天 UTC 时间 00:00 自动运行（北京时间 08:00）
+  schedule:
+    - cron: '0 0 * * *'
+  # 允许手动触发
+  workflow_dispatch:
+  # 当 README 或 workflow 文件更新时也运行
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'README.md'
+      - '.github/workflows/metrics.yml'
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # GitHub token (自动提供，无需配置)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # 用户配置
+          user: didadida262
+          
+          # 启用各种图表
+          base: header, activity, community, repositories, metadata
+          
+          # 3D 贡献图
+          plugin_3d: yes
+          
+          # 雷达图
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          
+          # 语言分布（甜甜圈图）
+          plugin_languages: yes
+          plugin_languages_ignored: html,css,scss,less,sass
+          plugin_languages_limit: 8
+          
+          # 统计信息
+          plugin_stars: yes
+          plugin_followers: yes
+          
+          # 输出文件
+          filename: metrics.svg
+          output_action: write
+
+      - name: Commit and push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics.svg
+          git diff --staged --quiet || git commit -m '📊 Update metrics'
+          git push
+

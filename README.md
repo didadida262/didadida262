@@ -1,3 +1,5 @@
+![Metrics](https://github.com/didadida262/didadida262/blob/main/metrics.svg)
+
 ## Hi there 👋
 
 I’m Miles, an experienced senior engineer specializing in frontend and full-stack product development. I thrive on delivering complex features, mentoring teams, and maintaining curiosity alongside a steady output tempo. This repository mirrors my GitHub profile, so everything shown here also appears on [https://github.com/didadida262](https://github.com/didadida262/).
