@@ -1,4 +1,5 @@
-![Metrics](https://github.com/didadida262/didadida262/blob/main/metrics.svg)
+<!-- GitHub Metrics - 自动生成并每天更新 -->
+<img src="https://raw.githubusercontent.com/didadida262/didadida262/main/metrics.svg" alt="Metrics" width="100%">
 
 ## Hi there 👋
 
