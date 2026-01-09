@@ -27,9 +27,9 @@ jobs:
 
       - name: Generate 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: didadida262
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: didadida262
 
       - name: Commit and push
         run: |
