@@ -13,10 +13,10 @@ I’m Yi Shin, an experienced senior engineer specializing in frontend and full-
 
 * **Individual Blog (hhvcg_Blog_v2)**: 🌐 https://isshin-kai.com
 * **Annotation Platform (project_labelV2)**: 🎯 https://project-label-v2.vercel.app
+* **WebRTC点对点视频通信平台**: https://www.mileswang262.com
 * **3D Situation Simulation (project_cesium)**: 🛰️ [https://project-cesium-react.vercel.app](https://project-cesium-react.vercel.app/)
 * **Point Cloud Simulation Platform (project_pointcloud)**: 🎨 https://project-pointcloud.vercel.app
 * **Local Large Model Knowledge Base (project_Local_Knowledge_Base)**: 📚 https://github.com/didadida262/project_Local_Knowledge_Base
-
 * **Command Line Scaffolding Toolkit (project_create_myApp_cli)**: ⚙️ https://www.npmjs.com/package/@miles_wang/create-myapp-cli
 
 
