@@ -17,7 +17,6 @@ I’m Isshin, an experienced senior engineer specializing in frontend and full-s
 * **Annotation Platform (project_labelV2)**: 🎯 https://project-label-v2.vercel.app
 * **WebRTC点对点视频通信平台**: https://project-webrtc.vercel.app
 * **3D Situation Simulation (project_cesium)**: 🛰️ [https://project-cesium-react.vercel.app](https://project-cesium-react.vercel.app/)
-* **Point Cloud Simulation Platform (project_pointcloud)**: 🎨 https://project-pointcloud.vercel.app
 
 
 Feel free to connect on GitHub, email me at `wzq7197@gmail.com`, or explore any project from my profile for more details.
